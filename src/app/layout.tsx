@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { ThemeProvider } from "./provider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,7 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Gleb Blumental Portfolio",
-  description: "My first portfolio, using nextJS",
+  description: "My first portfolio, using nextJ",
 };
 
 export default function RootLayout({
@@ -27,8 +28,14 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      >  <ThemeProvider
+      attribute="class"
+      defaultTheme="dark"
+      enableSystem
+      disableTransitionOnChange
+    >
         {children}
+      </ThemeProvider>
       </body>
     </html>
   );
