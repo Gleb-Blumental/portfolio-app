@@ -3,6 +3,7 @@ import { cn } from "@/utils/cn";
 import { useEffect, useRef, useState } from "react";
 
 export const BackgroundGradientAnimation = ({
+  
   gradientBackgroundStart = "rgb(108, 0, 162)",
   gradientBackgroundEnd = "rgb(0, 17, 82)",
   firstColor = "18, 113, 255",
@@ -48,6 +49,7 @@ export const BackgroundGradientAnimation = ({
       "--gradient-background-end",
       gradientBackgroundEnd
     );
+    console.log('BackgroundGradientAnimation mounted');
     document.body.style.setProperty("--first-color", firstColor);
     document.body.style.setProperty("--second-color", secondColor);
     document.body.style.setProperty("--third-color", thirdColor);
