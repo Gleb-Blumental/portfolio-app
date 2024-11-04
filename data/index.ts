@@ -84,7 +84,7 @@ export const navItems = [
       des: "Exploring REST-apis with Java and MySQL",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com/Gleb-Blumental/happy_doggies",
     },
     {
       id: 3,
@@ -100,7 +100,7 @@ export const navItems = [
       des: "The simplest and most loved of them all - Calculator using JS and HTML",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://github.com/Gleb-Blumental/Calculator",
     },
   ];
   
