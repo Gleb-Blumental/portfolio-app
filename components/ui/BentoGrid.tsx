@@ -2,7 +2,9 @@
 
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
+// Dynamically import Lottie, disabling SSR
+const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 import { useState } from "react";
 import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
