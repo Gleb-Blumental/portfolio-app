@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Testimonials", link: "/testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -107,15 +107,15 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Gleb was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gleb's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gleb is the ideal partner.",
+      name: "Sven Svensson",
+      title: "Director of Cisco Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Gleb made me save so much of my time. His professionalism and dedication to delivering excellent results made our project a success. He is a real genious at both fronend, backend and DevOps. Would definetly work with him again.",
+      name: "Bill Gates",
+      title: "Director of Microsoft Corporation",
     },
     {
       quote:
