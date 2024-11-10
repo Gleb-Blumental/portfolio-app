@@ -25,18 +25,19 @@ This is a **personal portfolio website** built using modern web technologies. In
 
 ### 1. **Clone the Repository**
 
-   ```bash
+```bash
    git clone https://github.com/yourusername/your-portfolio.git
    cd your-portfolio
+```
 
 ### 2. Install Dependencies
-   ```bash
+```bash
    npm install
-
+```
 ### 3.Run the Application
 ```bash
    npm run dev
-
+```
 
 ## Usage
 
