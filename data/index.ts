@@ -1,8 +1,8 @@
 export const navItems = [
-    { name: "About", link: "#about" },
+    { name: "About", link: "/about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "/testimonials" },
-    { name: "Contact", link: "#contact" },
+    { name: "Notes", link: "/notes" },
   ];
   
   export const gridItems = [
@@ -102,6 +102,14 @@ export const navItems = [
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/Gleb-Blumental/Calculator",
     },
+    {
+      id: 7,
+      title: "Portfolio",
+      des: "This own Portfolio is one of my projects, made with Next.js, React, Typescript and Tailwind",
+      img: "/p4.svg",
+      iconLists: ["/next.svg", "/tailwind.svg", "/ts.svg", "/gsap.svg"],
+      link: "https://github.com/Gleb-Blumental/Portfolio-app",
+    }
   ];
   
   export const testimonials = [
@@ -119,21 +127,21 @@ export const navItems = [
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Gleb was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gleb's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gleb is the ideal partner.",
+      name: "Jen Hsun Huang",
+      title: "Director of Nvidia",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Gleb was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gleb's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gleb is the ideal partner.",
+      name: "Phil Hutcheon",
+      title: "Director of DICE",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Gleb was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gleb's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gleb is the ideal partner.",
+      name: "Jacob Wallenberg",
+      title: "Owner of SAAB technologies",
     },
   ];
   
@@ -205,10 +213,6 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
     },
     {
       id: 3,
